@@ -1,6 +1,10 @@
+<h1>Git初阶使用笔记(1) - Start Up</h1>
+本文是一篇使用笔记，最初作为一篇博文发表在https://steinslab.io
+
 不会用git的机械工程师不是好厨子（指炼丹与炒菜）。
 
 <!--more-->
+
 
 
 <h2>1 前言</h2>
@@ -82,7 +86,7 @@ git是是一个分布式的版本控制系统，是可以使用远程仓库的�
 
 &nbsp;
 <h4>2 在Github上添加SSH Keys</h4>
-<img class="alignnone size-full wp-image-1534" src="https://steinslab.io/wp-content/uploads/2018/09/github1-1.png" alt="" width="1258" height="715" />
+<img class="alignnone size-full wp-image-1534" src="https://steinslab.io/wp-content/uploads/2018/09/github1-1.png" alt="" />
 <h4>3 git初始化</h4>
 <code>$ git config --global user.name "Your Name"</code>
 <code>$ git config --global user.email "email@example.com"</code>
@@ -556,7 +560,7 @@ commit后提交的是第一次修改的结果，因为<code>git add</code>将第
 
 举个不恰当的例子，就像下图一样，只不过各个分支可以根据项目需要在最后合并。
 
-<img class="alignnone size-full wp-image-1528" src="https://steinslab.io/wp-content/uploads/2018/09/bfae17b6gy1frrns5eieuj21hc0u00vb.jpg" alt="" width="1920" height="1080" />
+<img class="alignnone size-full wp-image-1528" src="https://steinslab.io/wp-content/uploads/2018/09/bfae17b6gy1frrns5eieuj21hc0u00vb.jpg" alt="" />
 
 图： 底特律:便乘人 剧情分支图（不恰当的例子）
 
